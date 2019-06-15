@@ -1,0 +1,119 @@
+<!DOCTYPE html>          
+<html lang="en">
+
+<!--------------  //  Contact Us Page 7 //  ------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bookmark</title>
+    <!--Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+     <!--bookmark link-->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+
+     <!--css/bootstrap-->
+    <link rel="stylesheet" type="text/css" href="Assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+</head>
+
+<body onload="fetchBookmarks()">
+ <div class="bookmarkBg">
+
+<!--NAV BAR*********************************************-->
+<div class="container-fluid" id="header">
+        <div class="row">
+
+            <div class="col-4">
+                <div id="logoDiv">
+                    <img id="logo" alt="logo" src="Assets/image/logo.jpg">
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div id="navDiv">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="aboutus.html">About us</a>
+                        <a href="notepad.html">Note Pad</a>
+                        <a href="developerlog.html">My Contacts</a>
+                        <a href="assignmentreport.html">Bookmark</a>
+                        <a href="assignmentLog.html">Assignment Log</a>
+                        <a href="generalreport.html">General Reports</a>
+                        <a href="contactus.html">Contact Us</a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+<!-------------  main container  ------------------->
+
+<div class="container">
+  <div class="header clearfix">
+      <nav>
+
+      </nav>
+    <div class="bookmarkBox">
+          <h3 class="text-muted"></h3>
+        </div>
+        
+        <div class="jumbotron">
+          <h2>Virtual Study Guide</h2>
+          <form id="myForm">
+            <div class="form-group">
+              <label>Site Name</label>
+              <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+            </div>
+            <div class="form-group">
+              <label>Site Url</label>
+              <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div><!--BookmarkBox END-->
+   
+        <div class="row marketing">
+          <div class="col-lg-6">
+            <div id="bookmarksResults"></div>
+          </div>
+        </div>
+
+    </div>
+
+
+
+    <!-----------------  Footer  ----------------------->
+
+<div class="container-fluid" id="footer">
+        <div class="row">
+        <footer>
+            &copy;proodos Assignment Tracking Team
+            <div class="content">
+            <a rel="Privacy Policy" href="#">Privacy policy</a>
+            <a rel="Terms of Use" href="#">Terms of Use</a>
+        </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="lib/Bootstrap/bootstrap.min.js">
+        <!---Javascript--->
+        <script type="text/javascript" src="Assets/javascrpt/app.js"></script>  
+<!---javascript-->
+<script type="text/javascript" src="Assets/javascrpt/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,664 @@
+/*/* Body */
+body{
+    font: 'open sans',sans-serief;
+    font-size: 16px;
+    font-weight: 300;
+    background-color:#ffffff;
+    color:#000000;
+    margin: 0;
+    padding: 0;
+    
+   }
+   
+   /*Jumbotron*/
+   .jumbocontainer {
+     display: block;
+     background-image: url("https://images.pexels.com/photos/2301410/pexels-photo-2301410.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     align-content: center;
+     height: 800px;
+     margin: 0;
+     text-align: center;
+     padding-top: 9%;
+     padding-right: 25px;
+   
+   }
+   /* Header */
+   #header{
+    background-color: #cf0004;
+    color:#ffffff;
+    height: 130px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+   
+    
+    
+   }
+   
+   /*logo on header*/
+   #logoDiv{
+    float:left;
+    width:25%;
+    margin-right: 50px;
+   }
+   
+   
+    /*NAV DIV*/
+    #navBar{
+    float: right;
+    width:100%;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin: auto;
+    margin-top: 45px;
+    margin-right: 250px;
+    text-align: center;
+    align-content: center;
+    line-height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    }
+   
+     nav {
+     float: right;
+     width: 110%;
+     clear: both;
+     margin: 0;
+     margin-top: 100px;
+     margin-right: 150px;
+     padding-top: 30px;
+     padding-left: 25px;
+     align-content: center;
+     line-height: 90px;
+     color: #ccc;
+     font-size: 18px;
+     margin-top: 100px;
+     margin-bottom: -25px;
+     position: relative;
+    
+   }
+   
+   #navDiv {
+     margin-bottom: 90px;
+   }
+   
+   /*logo on header*/
+   #logo{
+    width:200px;
+    height:100px;
+    margin:15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+   }
+   
+   /*maincontent*/
+   #maincontent {
+    float: center;
+    margin: auto;
+    width: 990px;
+    background:none;
+   
+   }
+   
+   
+   
+   /*login username*/
+   #main{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right: 9%;
+    margin-left: 25%;
+    font-size: 1em;
+    width: 80%;
+    border-radius: 10px;
+   }
+   
+   
+   
+   
+    /*Transparent BG for login*/
+   #transparentbackground {
+     align-content: center;
+     position: relative;
+     background-color: rgba(0, 0, 0, 0.637);
+     border-style: solid;
+     border-width: 3px;
+     border-color: #cf0004;
+     border-radius: 10px;
+     height: 350px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 1%;
+     padding-left: 0%;
+     padding-right: 3%;
+     padding-bottom: 10%;
+     color: #fff;
+     width: 55%;
+     align-content: center;
+     position: relative;
+     
+   }
+   
+   
+   /* Nav */
+   nav {
+   float: right;
+   margin-top: 25px;
+   }
+   nav a {
+   font-size: 1em;
+   font-weight: 2000;
+   margin-left: 15px;
+   padding-left: 15px;
+   color: #ffffff;
+   text-decoration: none;
+   line-height: 18px;
+   width: 180px;
+   display: table-cell;
+   margin-right: 15px;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 14px;
+   }
+   nav a:visited{
+    color:#fff;
+   }
+   nav a:hover{
+    background-color:#6d0911;
+   }
+   
+   
+   /* Form */
+   input[type=text], select, textarea {
+    width: 115%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+   }
+   
+   label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+   }
+   
+   input[type=submit] {
+    background-color:  #cf0004;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+   }
+   
+   input[type=submit]:hover {
+    background-color:#6d0911;;
+   }
+   
+   /* Footer */
+   #footer  {
+    clear:both;
+    background-color: #cf0004;
+    color:#ffffff;
+    height: 100px;
+    padding-top: 30px;
+    margin: auto;
+    position: relative;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+    padding-left: 42%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position:fixed;
+       bottom:0
+   
+   
+   
+   }
+   
+   /*About us Image*/
+   .image{
+    width: 400px;
+   height: auto;
+   margin-top: 0px;
+   margin-right: 25px;
+   float: left;
+   }
+   /* Contact us  */
+   #googlemapIcon{
+    width: 200px;
+   height: auto;
+   }
+   #adressHolder{
+    margin-top: 30px
+   }
+   #googleIcon{
+    width:50%;
+    float:left;
+   }
+   #googleIcon{
+    width:50%;
+    float:left;
+   }
+   
+   #adressDescription{
+    width:50%;
+    float:left;
+    margin-top: 40px;
+   }
+   
+   /*Main Heading*/
+   .display-4 {
+     width: 45%;
+     align-content: center;
+     margin: auto;
+     color: rgb(218, 9, 9);
+     font: 400 100px/1.0 'Just Another Hand', Helvetica, sans-serif;
+     font-size: 180px;
+     color: #cf0004;
+     text-shadow: 0px 3px 0px #5e5e5e, 0px 5px 0px #4d4d4d, 0px 7px 0px #3c3c3c, 0px 9px 0px #2b2b2b, 3px 8px 15px rgba(0,0,0,0.1), 3px 8px 5px rgba(0,0,0,0.3);
+     border-color: #cf0004 4px solid;
+     }
+   
+     /*Sub Heading*/
+     .lead {
+       font-family: 'Permanent Marker', cursive;
+       font-size: 40px;
+       background-color: rgba(255, 255, 255, 0.541);
+       width: 35%;
+       margin: auto;
+       margin-top: -2%;
+       align-content: center;
+       border-radius: 10px;
+     }
+   
+   
+   
+   
+   
+   
+    /*================Developer Log css below=========AKA MY CONTACTS=============================================================================*/
+     .contactContent {
+       width: 500px;
+       height: 5000px;
+       margin: auto;
+       padding: 0;
+     }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /*GENERAL REPORT***************************************************************************************************************/
+   
+   
+   
+     .generalReport {
+     
+       background-color: #cf0004;
+       text-align: center;
+       align-content: center;
+       border-style: solid;
+       border-width: 3px;
+       border-color: #cf0004;
+       border-radius: 0px;
+       margin-top: 40px;
+       margin-right: 20px;
+       margin-left: 160px;
+       margin-bottom: 20px;
+       line-height: 70px;
+       
+       
+   
+     }
+   
+     .generalReport {
+   
+       border-collapse: collapse;
+       width: 80%;
+        
+       }
+   
+       .generalReportBg {
+         background: url("https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         height: 850px;
+         width: 100%;
+         margin: auto;
+         padding: 0;
+         align-content: center;
+         text-align: center;
+         
+       }
+   
+   
+   /*notepad***************************************************************************************************************/
+   
+       .notepadContent {
+   
+       }
+   
+    
+        
+       
+   
+       .notepadBg {
+         /*background: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+         background-repeat: no-repeat;
+         background-size: 100%;
+         height: 2000px;
+         width: 100%;
+         margin: auto;
+         margin-top: 50px;
+         padding: 0;
+         align-content: center;
+         text-align: center;
+         
+       }
+   
+   
+   
+   
+       /************************************************************ABOUT US************************************************************************/
+   
+   
+    #groupImage {
+      margin-top: 115px;
+      margin-left: 90px;
+      width: 600px;
+      float: left;
+      
+   
+     
+    }
+   
+    #aboutUs {
+     float: left;
+     margin: auto;
+     margin-left: 180px;
+     width: 600px;
+     
+     
+    }
+   
+   
+    /**************************************************BOOKMARK AKA assignment report.html*******************************************************************/
+   
+    .form-group {
+      width: 900px;
+      color: #cf0004;
+      
+     }
+   
+     .bookmarkBox {
+       margin-top: 100px;
+       color: #cf0004;
+       
+     }
+   
+     .bookmarkBg {
+       height: 1900px;
+       background-image: url("");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       background-color: #ffffff;
+     }
+   
+     .jumbotron {
+       border-style: solid;
+       border-width: 3px;
+       border-color: #cf0004;
+       background-color: #2b2b2b;
+     }
+   
+   
+   
+   
+     /*******************************************************MY CONTACT LIST AKA DEVELOPER LOG>HTML***********************************/
+   
+     .myContactsBG {
+       height: 2200px;
+       background-image: url("");
+       background-repeat: no-repeat;
+       background-size: 100%;
+       
+   
+     }
+   
+     #filterInput {
+       color: rgb(0, 0, 0);
+       background-color: #ffffffb6;
+     }
+   
+   
+   
+   
+   
+   
+   
+     /***********************************************************CONTACT US/MAP********************************************************/
+     #map {
+       margin: auto;
+       align-content: center;
+       text-align: center;
+       margin-bottom: 25px;
+       margin-top: 125px;
+     }
+   
+     .contactDirect {
+       position: relative;
+       float: left;
+       float: top;
+       margin: auto;
+       width: 200px;
+       margin-top: 50px;
+     }
+   
+     #adressdescription {
+       margin-top: 50px;
+       margin: auto;
+       width: 400px;
+     }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxMEDIA QUERIES Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    /* 
+     ##Device = Desktops
+     ##Screen = 1401px to higher resolution desktops
+   */
+   
+   @media (max-width: 1401px) {
+     #navDiv {
+       width: 100%;
+       background: #cf0004;
+       clear: both;
+       margin: 0;
+       margin-top: 25px;
+       align-content: center;
+       
+       
+     }
+   
+     #logoDiv {
+       width: 10%;
+       clear: both;
+       margin: 0;
+      
+     }
+   
+     #logo {
+       width:100%;
+       margin-top: 15px;
+       clear: both;
+       columns: 4;
+     }
+     
+     #header .row {
+       background-color: #cf0004;
+       margin: 0 auto;
+       padding: 15px;
+       height: 80px;
+       top: 0;
+       z-index: 1;
+       
+       width: 100%;
+       margin: 0;
+       
+     }
+     
+     
+   
+   
+   /* 
+     ##Device = Laptops, Desktops
+     ##Screen = B/w 1025px to 1280px
+   */
+   
+    
+     
+   
+   /* 
+     ##Device = Tablets, Ipads (portrait)
+     ##Screen = B/w 768px to 1024px
+   */
+   
+   
+   
+     
+     
+     
+     
+   
+   
+   /* 
+     ##Device = Tablets, Ipads (landscape)
+     ##Screen = B/w 400px to 919px
+   */
+   
+   @media (min-width: 716px) and (max-width: 919px) and (orientation: landscape) {
+       
+         
+         
+   }
+     
+   #logoDiv {
+     width: 100%;
+     clear: both;
+     margin: 0;
+     columns: 1;
+    
+   }
+   
+   #header .row  {
+     background-color: #cf0004;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 auto;
+     padding: 0;
+     height: 80px;
+     top: 0;
+     z-index: 1;
+     
+     width: 100%;
+     clear: both;
+     margin: 0;
+     columns: 6;
+     
+     
+     
+   }
+   
+   
+   
+   
+   
+     
+   
+   
+   /* 
+     ##Device = Low Resolution Tablets, Mobiles (Landscape)
+     ##Screen = B/w 481px to 767px
+   */
+   
+   
+   
+   
+   /* 
+     ##Device = Most of the Smartphones Mobiles (Portrait)
+     ##Screen = B/w 320px to 479px
+   */
+   
+   @media (min-width: 320px) and (max-width: 480px) {
+     
+     
+     
+   }
+   
+}  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     
+   
+   
+   
+     
+     
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
